@@ -27,9 +27,10 @@ import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 
 public class MainActivity extends FragmentActivity {
 
+    private GoogleMap map;
     static final LatLng SANLUIS = new LatLng(-33.280576,-66.332482);
     static final LatLng ULP = new LatLng(-33.150720,-66.306864);
-    private GoogleMap map;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
